@@ -1,0 +1,174 @@
+body {
+    background-image: url(../images/dot-grid.png);
+}
+
+.navbar-brand  {
+font-family: termina,sans-serif;
+font-weight: 700;
+font-style: normal;
+border: navy 2px solid;
+color: navy !important;
+line-height: 24px;
+font-size: 24px;
+padding: 30px;
+margin-top: -10px;
+margin-left: -13px;
+background-color: white;
+}
+
+.nav-item {
+    background-color: white;
+}
+
+.navbar-brand:hover {
+    background-color: navy;
+    color: white !important;
+}
+
+.nav-link {
+    color: navy !important;
+    border: 2px solid navy;
+    padding: 41px 40px !important;
+    font-family: termina,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: -12px;
+}
+
+.nav-link:hover {
+    background-color: navy;
+    color: white !important;
+}
+
+.marginLeft {
+    margin-left: -2px;
+}
+
+.marginXtraleft {
+    margin-left: -18px;
+}
+
+.contact:hover {
+    border-radius: 0px 0px 35px 0px
+}
+
+img {
+    width: 60%;
+    height: auto;
+}
+
+.nsaPic {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+img:hover {
+    outline: 5px solid navy;
+    transform: translateY(-20px) scale(105%);
+  box-shadow: 5px 5px 15px rgb(196, 196, 196);
+  transition: 0.3s ease;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-family: termina,sans-serif;
+font-weight: 700;
+font-style: normal;
+color: navy;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 70vh;
+    height: auto;
+    color: navy;
+    line-height: 40px;
+}
+
+
+.fuckassContainer2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    padding: 10px 0px;
+    border: 2px solid navy;
+    color: navy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: navy;
+    border-color: navy;
+}
+
+.cleanBtn {
+    color: navy;
+    text-decoration: none !important;
+    padding: 13px 30px;
+}
+
+.cleanBtn:hover {
+    color: white;
+}
+
+.botnav {
+    color: white !important;
+}
+
+#navbar-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+font-family: termina,sans-serif;
+font-weight: 700;
+font-style: normal;
+border: navy 2px solid;
+background-color: navy !important;
+color: white !important;
+line-height: 24px;
+font-size: 18px;
+padding: 30px;
+margin-top: -10px;
+margin-left: -13px;
+height: 100px;
+width: auto;
+}
+
+.footerList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+
+}
+
+.footerItem {
+    font-weight: 400;
+    color: white;
+    padding: 12px;
+}
+
+.footerLogo {
+    padding: 0px 40px;
+}
+
+.btn {
+    margin-left: 20px;
+}
